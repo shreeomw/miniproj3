@@ -8,7 +8,7 @@ require_once 'config.php';
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script defer
-            src="https://console.cloud.google.com/apis/credentials?project=miniproj3-364607=<?= $_SESSION['lang'] ?>&key=AIzaSyAegRUTAJlOxTYg5pGD0UF_dt3XMyr3CiY"
+            src="https://console.cloud.google.com/apis/credentials?project=miniproj3-364607>&key=AIzaSyAegRUTAJlOxTYg5pGD0UF_dt3XMyr3CiY"
             type="text/javascript"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
