@@ -1,6 +1,8 @@
 <?php
 require_once 'config.php';
 ?>
+
+// MINIPROJ_Web
 <html>
 
 <head>
@@ -22,6 +24,8 @@ require_once 'config.php';
                 document.getElementById('form_lang').submit();
             }
         </script>
+    
+    //Language_selection
         <form method='get' action='' id='form_lang'>
             <div class="form-group">
             Select Language : <select class="form-control" name='lang' onchange='changeLang();'>
@@ -58,7 +62,8 @@ require_once 'config.php';
                 <div class="form-group"><label><?= $lang['destination'] ?>: </label>
                     <input class="form-control" id="to_places" placeholder="<?= $lang['enter_location'] ?>"/>
                     <input id="destination" name="destination" required="" type="hidden"/></div>
-
+                
+                // mode of transportation
                 <div class="form-group">
                     <label><?= $lang['travel_mode'] ?></label>
                     <select class="form-control" id="travel_mode" name="travel_mode">
